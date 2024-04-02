@@ -5,9 +5,9 @@ allSideMenu.forEach(item=> {
 
 	item.addEventListener('click', function () {
 		allSideMenu.forEach(i=> {
-			i.parentElement.classList.remove('active');
+			i.parentElement.classList.remove();
 		})
-		li.classList.add('active');
+		li.classList.add();
 	})
 });
 
